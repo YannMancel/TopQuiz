@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".controller.MainActivity">
+
+    <TextView
+        android:id="@+id/MainActivity_mGreetingText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:text="@string/text_view_name" />
+
+    <EditText
+        android:id="@+id/MainActivity_mNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/edit_text_hint" />
+
+    <Button
+        android:id="@+id/MainActivity_mPlayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:padding="30dp"
+        android:drawableTop="@drawable/tardis"
+        android:text="@string/button_name" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/MainActivity_mRankingButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:padding="30dp"
+            android:drawableTop="@drawable/trophy"
+            android:text="@string/ranking_name" />
+
+        <Button
+            android:id="@+id/MainActivity_mSettingButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:padding="30dp"
+            android:drawableTop="@drawable/settings"
+            android:text="@string/setting_name" />
+
+    </LinearLayout>
+
+</LinearLayout>

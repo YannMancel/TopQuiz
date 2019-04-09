@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".controller.GameActivity">
+
+    <TextView
+        android:id="@+id/GameActivity_mQuestionText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="@string/question_button_name" />
+
+    <Button
+        android:id="@+id/GameActivity_mAnswerButton1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:background="@android:color/white"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:text="@string/answer_question_1_name" />
+
+    <Button
+        android:id="@+id/GameActivity_mAnswerButton2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:background="@android:color/white"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:text="@string/answer_question_2_name" />
+
+    <Button
+        android:id="@+id/GameActivity_mAnswerButton3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:background="@android:color/white"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:text="@string/answer_question_3_name" />
+
+    <Button
+        android:id="@+id/GameActivity_mAnswerButton4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:background="@android:color/white"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:text="@string/answer_question_4_name" />
+
+</LinearLayout>

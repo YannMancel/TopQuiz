@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.RankingActivity"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/RankingActivity_mListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:layout_margin="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/RankingActivity_mByScoreButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:background="@color/colorAccent"
+            android:text="@string/by_score_button_name"/>
+
+        <Button
+            android:id="@+id/RankingActivity_mByAlphabeticalButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/by_alphabetical_button_name"/>
+    </LinearLayout>
+
+</LinearLayout>

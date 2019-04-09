@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">"TopQuiz"</string>
+
+    <!-- Into several XML/Java files /-->
+    <string name="ok_text">"OK"</string>
+    <string name="yes_text">"Yes"</string>
+    <string name="no_text">"No"</string>
+
+    <!-- ===== XML ===== /-->
+
+        <!-- activity_main.xml /-->
+        <string name="text_view_name">"Welcome to TopQuiz! What's your name?"</string>
+        <string name="edit_text_hint">"Please type your name"</string>
+        <string name="button_name">"Let's play"</string>
+        <string name="ranking_name">"Top 5"</string>
+        <string name="setting_name">"Setting"</string>
+
+        <!-- activity_game.xml /-->
+        <string name="question_button_name">"Question?"</string>
+        <string name="answer_question_1_name">"Answer 1"</string>
+        <string name="answer_question_2_name">"Answer 2"</string>
+        <string name="answer_question_3_name">"Answer 3"</string>
+        <string name="answer_question_4_name">"Answer 4"</string>
+
+        <!-- activity_ranking.xml /-->
+        <string name="by_score_button_name">"Score"</string>
+        <string name="by_alphabetical_button_name">"Alphabetical"</string>
+
+        <!-- adapter_item.xml /-->
+        <string name="name_adapter_item">"Name"</string>
+        <string name="score_adapter_item">"Score"</string>
+
+        <!-- dialog_number.xml /-->
+        <string name="select_maximal_number">Select the maximal number of questions, please!</string>
+
+    <!-- ===== JAVA ===== /-->
+
+        <!-- MainActivity.java /-->
+        <string name="preference_file_key">"com.mancel.yann.topquiz.PREFERENCE_FILE_KEY"</string>
+        <string name="hey_text">"Hey"</string>
+        <string name="welcome_back_text">"Welcome back"</string>
+        <string name="last_score_text">"Your last score was"</string>
+        <string name="better_this_time_text">"will you do better this time?"</string>
+
+        <!-- GameActivity.java /-->
+        <string name="activity_game_label_name">"Game"</string>
+        <string name="good_answer_text">"Good answer!"</string>
+        <string name="wrong_answer_text">"Wrong answer!"</string>
+        <string name="well_done_text">"Well done!"</string>
+        <string name="score_text">"Your score is"</string>
+
+        <!-- RankingActivity.java /-->
+        <string name="activity_ranking_label_name">"Ranking"</string>
+
+</resources>

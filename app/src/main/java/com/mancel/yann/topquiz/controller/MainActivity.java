@@ -145,6 +145,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             // Saves the ranking
             final Set<String> set = this.mRanking.getUserMapToStringSet();
             this.saveResultWithSharedPreferences(this.mPreferences, PREF_KEY_SET, set);
+
+            // The button is now visible (In the case where it is the first time)
+            this.mRankingButton.setVisibility(View.VISIBLE);
         }
     }
 
